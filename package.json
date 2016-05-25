@@ -1,0 +1,35 @@
+{
+  "name": "fieldtrip-cobweb-semantics",
+  "version": "0.0.1",
+  "description": "A fieldtrip plugin for semantically enabling records",
+  "main": "src/www/js/semantics.js",
+  "scripts": {
+    "lint": "node_modules/jshint/bin/jshint src/www/js/**.js",
+    "release": "npm run lint && node_modules/release-it/bin/release.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://https://github.com/cobweb-eu/fieldtrip-cobweb-semantics.git"
+  },
+  "keywords": [
+    "fieldtrip",
+    "cobweb",
+    "semantics"
+  ],
+  "authors": [
+    "B. Kroon"
+  ],
+  "license": "BSD",
+  "dependencies": {
+    "jquery": "^1.11.2"
+  },
+  "devDependencies": {
+    "jshint": "2.5.3",
+    "release-it": "0.0.15"
+  },
+  "bugs": {
+    "url": "https://github.com/cobweb/fieldtrip-cobweb-semantics/issues"
+  },
+  "homepage": "https://github.com/cobweb/fieldtrip-cobweb-semantics"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "fieldtrip-cobweb-semantics",
+  "version": "0.0.1",
+  "authors": [
+    "Barnard Kroon <barnard.kroon@ucd.ie>"
+  ],
+  "main": "src/www/js/semantics.js",
+  "keywords": [
+    "fieldtrip-open",
+    "cobweb",
+    "semantics"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

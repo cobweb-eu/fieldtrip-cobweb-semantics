@@ -39,7 +39,7 @@ define(['records', 'utils', 'file'], function(records, utils, file){
         context.push("http://prophet.ucd.ie/ontology/cobweb/context/geojson.jsonld");
         context.push("http://prophet.ucd.ie/ontology/cobweb/context/base.jsonld");
         var vocab = $("form").attr("vocab") || '';
-        if( vocab != '') {
+        if( vocab !== '') {
             var base = {"@base" : vocab };
             context.push(base);
         }
